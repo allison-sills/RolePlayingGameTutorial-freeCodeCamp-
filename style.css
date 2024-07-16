@@ -1,0 +1,46 @@
+/* Set the background color for the entire body */
+body {
+    background-color: #0a0a23;
+  }
+  /* Style the main text area for game messages */
+  #text {
+    background-color: #0a0a23;
+    color: #ffffff;
+    padding: 10px;
+  }
+  /* Style the main game container */
+  #game {
+    max-width: 500px;
+    max-height: 400px;
+    background-color: #ffffff;
+    color: #ffffff;
+    margin: 30px auto 0px;
+    padding: 10px;
+  }
+  /* Style for the controls and stats sections */
+  #controls,
+  #stats {
+    border: 1px solid #0a0a23;
+    padding: 5px;
+    color: #0a0a23;
+  }
+  /* Style for the monster stats section */
+  #monsterStats {
+    display: none; /* Initially hide the monster stats */
+    border: 1px solid #0a0a23;
+    padding: 5px;
+    color: #ffffff;
+    background-color: #c70d0d;
+  }
+  /* Style for individual stat elements */
+  .stat {
+    padding-right: 10px;
+  }
+  /* Style for buttons */
+  button {
+    cursor: pointer; /* Change cursor to pointer on hover */
+    color: #0a0a23;
+    background-color: #feac32;
+    background-image: linear-gradient(#fecc4c, #ffac33); /* Gradient background */
+    border: 3px solid #feac32; /* Border color */
+  }
